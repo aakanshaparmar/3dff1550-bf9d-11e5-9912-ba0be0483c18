@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ccc
+  background: #ccc;
+  font-family:"Verdana";
 }
 
 .top-header {
@@ -41,7 +42,6 @@ body {
   margin: 0;
 }
 .nav li {
-  font-family: 'Oswald', sans-serif;
   font-size: 0.8em;
   line-height: 40px;
   height: 40px;
@@ -86,8 +86,14 @@ body {
     background-color: #6E868F;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    font-size: 30px;
+    color:#fff;
+  }
+
+  .highlight-text{
+    background-color: #E89C45;
   }
 
 
