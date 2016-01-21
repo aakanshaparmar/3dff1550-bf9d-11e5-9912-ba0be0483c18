@@ -11,14 +11,18 @@ body {
  
 #nav {
   float:right;
-  background-color: #405562;
   width:100%;
-  padding-left: 10%;
+  padding-left: 13%;
+  background-color: #405562;
+}
+
+header{
+  background-color: #405562;
 }
 
 #nav-logo {
   float:left;
-  padding-left: 10%;
+  padding-left: 13%;
 }
 
 #logo{
@@ -30,7 +34,7 @@ body {
 #menu-bar{
   float:right;
   background-color: #405562;
-  padding-right: 10%;
+  padding-right: 13%;
 }
 
 
@@ -84,8 +88,8 @@ body {
   #heading-container{
     width: 100%;
     background-color: #6E868F;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 13%;
+    padding-right: 13%;
     padding-top: 7%;
     padding-bottom: 4%;
     font-size: 32px;
@@ -96,9 +100,10 @@ body {
     background-color: #E89C45;
   }
 
-  #content-introduction{
-    padding-left: 10%;
-    padding-right: 10%;
+  #main-content{
+    color:#353739;
+    width:75%;
+    float: left;
   }
 
   #heading{
@@ -108,11 +113,112 @@ body {
 
   #introduction-para1{
     font-size: 21px;
+    font-family: "Palatino Linotype"
   }
 
   #introduction-para2{
     font-size: 15px;
+    font-family: "Palatino Linotype";
   }
+
+  #sidebar{
+    width:25%;
+    float: right;
+    max-height: 40%;
+    padding-top: 2%;
+    
+  }
+
+  #content{
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+
+  #submenu{
+    
+    padding-top: 0em;
+  }
+
+  #personal-info{
+    position: relative; 
+    left: 0; 
+    top: 0;
+    margin-top: .75em;
+  }
+  
+  .sidebar-element{
+    border-style: solid;
+    border-color: #E1E1E1;
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  #submenu-heading{
+    text-align: center;
+    font-weight:bold;
+    font-size: 1.2em;
+    display:block;
+    padding-top: .5em;
+  }
+
+  #submenu-bar{
+    text-align: left;
+  }
+
+  #submenu-list{
+     list-style-type: none;
+     font-size: 1.1em;
+     padding-left: 0px;
+  }
+
+  .submenu-items-link{
+    text-decoration: none;
+    color:#25CFBE;
+    padding-left: 1em;
+  }
+
+  #submenu-active{
+    background-color: #25CFBE;  
+  }
+
+
+  #submenu-active-link{
+    color: #fff;
+  }
+
+  .submenu-list-item{
+    padding-bottom: 0.5em;
+  }
+
+  #examples-link-span{
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  #skyline { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px 5px 5px 5px;
+    position: relative; 
+    top: 0; 
+    left: 0;
+  }
+
+  #profile-pic{
+    position: absolute; 
+    top: 60px; 
+    left: 80px;
+    max-width: 30%; 
+    height: auto;
+    border-radius: 35px 35px 35px 35px;
+  }
+
+
+
+
+
+
+
 
 
 }

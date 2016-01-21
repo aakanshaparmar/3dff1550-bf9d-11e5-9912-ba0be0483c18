@@ -8,32 +8,55 @@
   </head>
 
 <body>
-  <header>
-  <div id="nav">
-          <div id = "nav-logo">
-            <img id = "logo" src="img/logo.svg">
-          </div>
-          <div id = "menu-bar">
-            <ul id = "menu-items">
-              <li id = "home"><a class="active" href="#">HOME</a></li>
-              <li id = "dapibus"><a href="#">DAPIBUS</a></li>
-              <li id = "ultrices"><a href="#">ULTRICIES</a></li>
-              <li id = "bibendum"><a href="#">BIBENDUM</a></li>
-              <li id = "magna"><a href="#">MAGNA</a></li>
-            </ul>
+  <section id="header">
+      <header>
+        <div id="nav">
+           <div id = "nav-logo">
+                <img id = "logo" src="img/logo.svg">
+              </div>
+              <nav id = "menu-bar">
+                <ul id = "menu-items">
+                  <li id = "home"><a class="active" href="#">HOME</a></li>
+                  <li id = "dapibus"><a href="#">DAPIBUS</a></li>
+                  <li id = "ultrices"><a href="#">ULTRICIES</a></li>
+                  <li id = "bibendum"><a href="#">BIBENDUM</a></li>
+                  <li id = "magna"><a href="#">MAGNA</a></li>
+                </ul>
+            </nav>
         </div>
+        <div id="heading-container">
+          <span id="highlight-text"> Duis mollis, est non commodo luctus,<br>
+           nisi erat porttitor ligula, eget lacinia odio<br>
+           sem nec elit.
+         </span>
+        </div>
+      </header>
+  </section>
+  <section id="content">
+ 
+    <div id = "sidebar">
+      <div class="sidebar-element" id="submenu">
+        <span id="submenu-heading">Submenu</span>
+         <ul id = "submenu-list">
+              <li class = "submenu-list-item" id = "home"><a class = "submenu-items-link" href="#">Home</a></li>
+              <li class = "submenu-list-item" id="submenu-active" ><a class = "submenu-items-link" id="submenu-active-link" href="#"><span id="examples-link-span"> Examples</span></a></li>
+              <li class = "submenu-list-item" id = "contact"><a class = "submenu-items-link" href="#">Contact</a></li>
+              <li class = "submenu-list-item" id = "about"><a class = "submenu-items-link" href="#">About</a></li>
+            </ul>
+       </div>
+
+       <div class="sidebar-element" id="personal-info">
+        <img id="skyline" src="img/hk-skyline.jpg">
+        <img id="profile-pic" src="img/doggieId.jpg">
       </div>
-      <div id="heading-container">
-        <span id="highlight-text"> Duis mollis, est non commodo luctus,<br>
-         nisi erat porttitor ligula, eget lacinia odio<br>
-         sem nec elit.
-       </span>
-      </div>
-      <div id="content">
-      <div id="content-introduction">
+
+     </div>
+
+      <div id="main-content">
+       <div id="content-introduction">
         <p id="heading"> Justo Vulputate Tortor Sem </p>
        
-        <p id"introduction-para1">
+        <p id="introduction-para1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br>
           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br>
@@ -48,7 +71,8 @@
         </p>
       </div>
     </div>
-
-  </header>
+  
+   </section>
+  
 </body>
 </html>
