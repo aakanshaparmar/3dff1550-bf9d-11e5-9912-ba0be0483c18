@@ -5,50 +5,50 @@ body {
   font-family:"Verdana";
 }
 
-.top-header {
+#top-header {
   background-color: #405562
 }
  
-.nav {
+#nav {
   float:right;
   background-color: #405562;
   width:100%;
   padding-left: 10%;
 }
 
-.nav-logo {
+#nav-logo {
   float:left;
   padding-left: 10%;
 }
 
-.logo{
+#logo{
   height:42%;
   width:42%;
   padding-top: 8%
 }
 
-.menu-bar{
+#menu-bar{
   float:right;
   background-color: #405562;
   padding-right: 10%;
 }
 
 
-.nav ul {
+#nav ul {
   list-style: none;
   background-color: #405562;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.nav li {
+#nav li {
   font-size: 0.8em;
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
 }
  
-.nav a {
+#nav a {
   text-decoration: none;
   font-weight:bold;
   color: #607881;
@@ -56,11 +56,11 @@ body {
   transition: .3s background-color;
 }
  
-.nav a:hover {
+#nav a:hover {
   background-color: #005f5f;
 }
  
-.nav a.active {
+#nav a.active {
   background-color: #314248;
   color: #fff;
   cursor: default;
@@ -68,7 +68,7 @@ body {
 }
  
 @media screen and (min-width: 600px) {
-  .nav li {
+  #nav li {
     width: 120px;
     border-bottom: none;
     height: 50px;
@@ -76,12 +76,12 @@ body {
     font-size: 0.8em;
   }
  
-  .nav li {
+  #nav li {
     display: inline-block;
     margin-right: -4px;
   }
 
-  .heading-container{
+  #heading-container{
     width: 100%;
     background-color: #6E868F;
     padding-left: 10%;
@@ -92,25 +92,25 @@ body {
     color:#fff;
   }
 
-  .highlight-text{
+  #highlight-text{
     background-color: #E89C45;
   }
 
-  .content-introduction{
+  #content-introduction{
     padding-left: 10%;
     padding-right: 10%;
   }
 
-  .heading{
+  #heading{
     font-weight: bold;
-    font-size:28px;
+    font-size:200%;
   }
 
-  .introduction-para1{
+  #introduction-para1{
     font-size: 21px;
   }
 
-  .introduction-para2{
+  #introduction-para2{
     font-size: 15px;
   }
 
