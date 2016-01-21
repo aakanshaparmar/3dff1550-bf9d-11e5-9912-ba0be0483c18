@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ccc;
+  background: #fff;
   font-family:"Verdana";
 }
 
@@ -88,12 +88,30 @@ body {
     padding-right: 10%;
     padding-top: 7%;
     padding-bottom: 4%;
-    font-size: 30px;
+    font-size: 32px;
     color:#fff;
   }
 
   .highlight-text{
     background-color: #E89C45;
+  }
+
+  .content-introduction{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .heading{
+    font-weight: bold;
+    font-size:28px;
+  }
+
+  .introduction-para1{
+    font-size: 21px;
+  }
+
+  .introduction-para2{
+    font-size: 15px;
   }
 
 
