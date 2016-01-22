@@ -3,6 +3,7 @@ body {
   padding: 0;
   background: #fff;
   font-family:"Verdana";
+  color:#3C3E3D;
 }
 
 #top-header {
@@ -18,7 +19,7 @@ body {
 
 #nav-logo {
   float:left;
-  padding-left: 13%;
+  padding-left: 12%;
 }
 
 #logo{
@@ -69,11 +70,11 @@ body {
 
   #heading-container{
     background-color: #6E868F;
-    padding-left: 13%;
-    padding-right: 13%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 7%;
     padding-bottom: 4%;
-    font-size: 32px;
+    font-size: 1.8em;
     color:#fff;
   }
 
@@ -89,30 +90,35 @@ body {
 
   #heading{
     font-weight: bold;
-    font-size:200%;
+    font-size:1.6em;
+    font-family: "Verdana";
+    padding-top: 0.5em;
   }
 
   #introduction-para1{
-    font-size: 21px;
-    font-family: "Palatino Linotype"
+    font-size: 1.33em;
+ }
+
+  .introduction-para2{
+    font-size: 1em;
   }
 
-  #introduction-para2{
-    font-size: 15px;
-    font-family: "Palatino Linotype";
+  #content-introduction{
+     font-family: "Palatino Linotype";
+     padding-bottom: 5em;
   }
 
   #sidebar{
     width:25%;
     float: right;
-    /*max-height: 40%;*/
+    max-height: 50%;
     padding-top: 4%;
     
   }
 
-  #content{
-    padding-left: 13%;
-    padding-right: 13%;
+  #body{
+    padding-left: 12%;
+    padding-right: 12%;
   }
 
   #submenu{
@@ -290,15 +296,105 @@ body {
     padding-top: 0.75em;
   }
 
-  p{
-    font-family: "Palatino Linotype"
-  }
-
   #address{
     padding-left: 1.75em;
     line-height: 1.7em;
     padding-bottom: 0.5em;
   }
+
+  #quote{
+    float:right;
+    width:50%;
+    margin-left: 3em;
+    margin-right: 1.5em;
+    shape-outside: circle(50% at 0 0) margin-box;
+  }
+
+  #saying{
+    color:#526A75;
+    font-size: 1.2em;
+    font-family: "Cursive";
+    font-style: italic;
+  }
+
+  #normal-text{
+    float:left;
+    width:50%;
+  }
+
+  #author{
+    text-align: right;
+  }
+
+ .object-img{
+ float: left;
+  width: 20%;
+}
+
+.object-content{
+  float: right;
+  width: 80%;
+}
+
+.obj-img-src{
+  width:9em;
+}
+
+.object-heading{
+  color:#26CDC1;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  padding-top: 0em;
+  margin-top: 0em; 
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.object-details{
+  padding-top: 0em;
+  margin-top: 0em; 
+  font-family: "Palatino Linotype";
+  font-size: 1.1em; 
+}
+
+.series-object{
+  padding-bottom: 10em;
+  width:100%;
+}
+
+
+.line-center{
+    margin:0;padding:0 10px;
+    background:#fff;
+    display:inline-block;
+}
+
+
+p.divider{
+    text-align:center;
+    position:relative;
+    z-index:2;
+    font-size: 1.5em;
+    padding-top: 0em;
+    font-weight: bold;
+    
+}
+
+p.divider:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 4px #E1DFE0;
+    width: 95%;
+    z-index:-1;
+}
+
+#divider2{
+  width: 140%;
+}
 
 
 
