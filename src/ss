@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+  <head> 
+    <link rel="stylesheet" type="text/css" href="homepagestyle.css">
+    <title> OYODO </title> 
+  </head>
+
+  <body>
+    <section id="header">
+      <header>
+        <div id="nav">
+          <div id = "nav-logo">
+            <img id = "logo" src="img/logo.svg">
+          </div>
+          <nav id = "menu-bar">
+            <ul id = "menu-items">
+              <li id = "home"><a class="active" href="#">HOME</a></li>
+              <li id = "dapibus"><a href="#">DAPIBUS</a></li>
+              <li id = "ultrices"><a href="#">ULTRICIES</a></li>
+              <li id = "bibendum"><a href="#">BIBENDUM</a></li>
+              <li id = "magna"><a href="#">MAGNA</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div id="heading-container">
+          <span id="highlight-text"> Duis mollis, est non commodo luctus,<br>
+           nisi erat porttitor ligula, eget lacinia odio<br>
+           sem nec elit.
+          </span>
+        </div>
+      </header>
+  </section>
+  <section id="content">
+ 
+    <div id = "sidebar">
+      <div class="sidebar-element" id="submenu">
+        <span class="submenu-heading">Submenu</span>
+         <ul id = "submenu-list">
+              <li class = "submenu-list-item" id = "home"><a class = "submenu-items-link" href="#">Home</a></li>
+              <li class = "submenu-list-item" id="submenu-active" ><a class = "submenu-items-link" id="submenu-active-link" href="#"><span id="examples-link-span"> Examples</span></a></li>
+              <li class = "submenu-list-item" id = "contact"><a class = "submenu-items-link" href="#">Contact</a></li>
+              <li class = "submenu-list-item" id = "about"><a class = "submenu-items-link" href="#">About</a></li>
+            </ul>
+       </div>
+       <div class="sidebar-element" id="personal-info">
+          <img id="skyline" src="img/hk-skyline.jpg">
+          <img id="profile-pic" src="img/doggieId.jpg">
+          <div id ="personal-info-text">
+            <table>
+                <tr class="personal-info-row"> <td class="personal-info-heading"> Name </td> <td class="personal-info-content">  Nomen Nescio </td> </tr>
+                <tr class="personal-info-row"> <td class="personal-info-heading"> Email </td> <td class="personal-info-content"> nomen@example.com </td> </tr>
+                <tr class="personal-info-row"> <td class="personal-info-heading"> Phone </td> <td class="personal-info-content"> +852 555 555 </td> </tr>
+            </table>
+          </div>
+        </div>
+        <div class="sidebar-element" id="send-message">
+          <span class="submenu-heading"> Send me a message </span>
+          <div id="send-msg-content">
+              <span class="send-msg-titles"> Subject </span> <br>
+              <input type="text" name="subject" size="21"> <br>
+              <div id="msg-title"><span class="send-msg-titles"> Message </span></div>
+              <textarea id="msg-content" rows="4" columns="20" maxLength="140"></textarea> 
+              <span id="wordCount"> 0/140 </span>  <br> 
+              <button type="button" id="send-button"> Send </button> 
+          </div>
+        </div>
+        <div id="location" class="sidebar-element">
+         <span class="submenu-heading"> Or meet me at the office </span>
+         <img id="map" src="img/map.gif" >
+         <p id="address"> ONE MIDTOWN <br>
+             11 Hoi Shing Rd <br>
+             Tsuen Wan <br>
+         </p>
+        </div>
+      </div>
+
+
+      <div id="main-content">
+       <div id="content-introduction">
+        <p id="heading"> Justo Vulputate Tortor Sem </p>
+       
+        <p id="introduction-para1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+          aliquip ex ea comodo consequat. 
+        </p>
+
+        <p class="content">
+          Sed ut perspiciatis unde omnis iste natus error sit voultatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archtitecto beatae vitae dicta sunt 
+          explicabo. Nemo enim ipsam volutatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+          consequuntur magni dolores eos qui ratione voluptatem sequi 
+        </p>
+
+      <div id="wrap-text"> <!--  <p id="quote">
+          Purus sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut is elit. - Jane Doe </p><p class="introduction-main-content" id="introduction-para2">
+          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget 
+          metus. Nulla vitae elit libero, a pharetra augue.nesciunt. Neque porro quisquam est, qui dolorem ipsum 
+          quia dolo sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incident ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Etiam porta sem malesuada magna mollis eusimod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. 
+        </p> -->
+      </div>
+
+    </div >
+    <div id="more-in-series">
+      <p id="divider"><span  class="line-center">More in this series</span></p>
+      <div class="series-object">
+        <div class="object-img"> <img src="img/teaser-01.jpg" class="obj-img-src"> </div>
+        <div class="object-content">
+          <h2 class="object-heading"> Porta Parturient Fermentum Euismod </h2>
+          <p class="content">Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+        
+     
+</section>
+  
+</body>
+</html>

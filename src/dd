@@ -1,105 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  font-family:"Verdana";
-}
-
-#top-header {
-  background-color: #405562
-}
- 
-#nav {
-  float:right;
-  width:100%;
-  padding-left: 13%;
-  background-color: #405562;
-}
-
-#nav-logo {
-  float:left;
-  padding-left: 13%;
-}
-
-#logo{
-  height:42%;
-  width:42%;
-  padding-top: 8%
-}
-
-#nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-#nav li {
-  font-size: 0.8em;
-  line-height: 40px;
-  height: 40px;
-}
- 
-#nav a {
-  text-decoration: none;
-  font-weight:bold;
-  color: #607881;
-  display: block;
-}
- 
-#nav a.active {
-  background-color: #314248;
-  color: #fff;
-  cursor: default;
-  border-bottom:3px solid #25CFBE;
-}
- 
-@media screen and (min-width: 600px) {
-  #nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 0.8em;
-  }
- 
-  #nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-
-  #heading-container{
-    background-color: #6E868F;
-    padding-left: 13%;
-    padding-right: 13%;
-    padding-top: 7%;
-    padding-bottom: 4%;
-    font-size: 32px;
-    color:#fff;
-  }
-
-  #highlight-text{
-    background-color: #E89C45;
-  }
-
-  #main-content{
-    color:#353739;
-    width:75%;
-    float: left;
-  }
-
-  #heading{
-    font-weight: bold;
-    font-size:200%;
-  }
 
   #introduction-para1{
-    font-size: 21px;
-    font-family: "Palatino Linotype"
+    font-size: 1.4em;
+
   }
 
-  #introduction-para2{
-    font-size: 15px;
-    font-family: "Palatino Linotype";
+  .content{
+    font-size: 0.95em;
+    padding-top:1.1em;
   }
 
   #sidebar{
@@ -110,16 +17,15 @@ body {
     
   }
 
-  #content{
-    padding-left: 13%;
-    padding-right: 13%;
+  #main-content{
+    padding-left: 11%;
+    padding-right: 11%;
   }
 
   #submenu{
     border-radius: 5px 5px 5px 5px;
     padding-top: 0em;
     background-color: #FFFFFF;
-  
   }
 
   #personal-info{
@@ -127,27 +33,6 @@ body {
     left: 0; 
     top: 0;
     margin-top: .75em;
-    padding-bottom: 1em;
-    border-radius: 5px 5px 0px 0px;
-    padding-top: 0em;
-  }
-
-  #personal-info-text{
-    margin-top: 4.5em;
-    font-size: 0.75em;
-    padding-left: 1.7em;
-   
-  }
-
-  .personal-info-heading{
-    padding-right: 0.65em;
-    font-weight: bold;
-
-  }
-
-  .personal-info-content{
-    padding-left: 0.4em;
-    font-family:"Palatino Linotype";
   }
   
   .sidebar-element{
@@ -161,9 +46,10 @@ body {
   .submenu-heading{
     text-align: center;
     font-weight:bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
     display:block;
     padding-top: .5em;
+    color:#191F23;
   }
 
   #submenu-bar{
@@ -221,8 +107,26 @@ body {
     border-style: solid;
   }
 
+  #personal-info{
+    padding-bottom: 2em;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 0em;
+  }
 
- #send-message{
+  #personal-info-text{
+    margin-top: 5em;
+    font-size: 0.75em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+  }
+
+  .personal-info-heading{
+    padding-right: 0.65em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+  }
+
+  #send-message{
     background-color: #CEC9C8;
     padding-bottom: 1em;
     border-radius: 0px 0px 0px 0px;
@@ -234,23 +138,27 @@ body {
     padding-top: 0.5em;
   }
 
-  
-
-  textarea{
-    resize: none;
+  .personal-info-content{
     padding-bottom: 0.5em;
   }
 
-  input{
-    padding-bottom: 0.5em; 
-  }
-
-  .input{
+  textarea{
+    resize: none;
+    font-size: 1.1em;
+    padding-bottom: 0.5em;
     border-radius: 5px 5px 5px 5px;
     border-color: #BEBCBD;
     border-style:solid;
     border-width: 0.1em;
+  }
+
+  input{
     font-size: 1.1em;
+    padding-bottom: 0.5em;
+    border-radius: 5px 5px 5px 5px;
+    border-color: #BEBCBD;
+    border-style:solid;
+    border-width: 0.1em;
   }
 
   .send-msg-titles{
@@ -300,12 +208,75 @@ body {
     padding-bottom: 0.5em;
   }
 
+  #content-introduction{
+    padding-right: 2.7em;
+    padding-bottom: 2.5em;
+  }
+
+  #quote{
+    width:30%;
+    float:right;
+    margin-top: 6em;
+  }
+
+  #introduction-para2{
+    width:70%;
+    float:left;
+  }
+
+.line-center{
+    margin:0;padding:0 10px;
+    background:#fff;
+    display:inline-block;
+}
 
 
+p#divider{
+    
+    text-align:center;
+    position:relative;
+    z-index:2;
+    font-size: 1.5em;
+    padding-top: 0em;
+    
+}
+p#divider:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 4px #E1DFE0;
+    width: 95%;
+    z-index:-1;
+}
 
+.object-img{
+  float: left;
+  width: 18%;
+}
 
+.object-content{
+  float: right;
+  width: 82%;
+}
 
+.obj-img-src{
+  width:8em;
+}
 
+.object-heading{
+  color:#26CDC1;
+  padding-bottom:0em;
+}
+
+h2{
+  padding-bottom: 0.3em;
+  padding-top:0em;
+  margin-bottom:0.3em;
+  margin-top: 0em;
+}
+}
 
 
 }
