@@ -89,7 +89,8 @@ header{
     width: 100%;
     background-color: #6E868F;
     padding-left: 13%;
-    padding-right: 13%;
+    padding-right: 13
+    %;
     padding-top: 7%;
     padding-bottom: 4%;
     font-size: 32px;
@@ -124,8 +125,8 @@ header{
   #sidebar{
     width:25%;
     float: right;
-    max-height: 40%;
-    padding-top: 2%;
+    /*max-height: 40%;*/
+    padding-top: 4%;
     
   }
 
@@ -153,10 +154,10 @@ header{
     border-radius: 5px 5px 5px 5px;
   }
 
-  #submenu-heading{
+  .submenu-heading{
     text-align: center;
     font-weight:bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     display:block;
     padding-top: .5em;
   }
@@ -198,7 +199,7 @@ header{
   #skyline { 
     max-width: 100%; 
     height: auto; 
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 0px 0px;
     position: relative; 
     top: 0; 
     left: 0;
@@ -210,7 +211,89 @@ header{
     left: 80px;
     max-width: 30%; 
     height: auto;
-    border-radius: 35px 35px 35px 35px;
+    border-radius: 40px 40px 40px 40px;
+    border-color: #FFFFFF;
+    border-width: 4px;
+    border-style: solid;
+  }
+
+  #personal-info{
+    background-color: #E4E1E2;
+    padding-bottom: 2em;
+  }
+
+  #personal-info-text{
+    margin-top: 5em;
+    font-size: 0.75em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+  }
+
+  .personal-info-heading{
+    padding-right: 0.65em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+  }
+
+  #send-message{
+    background-color: #CEC9C8;
+    padding-bottom: 1em;
+
+  }
+
+  #send-msg-content{
+    margin-left: 1em;
+    padding-top: 0.5em;
+  }
+
+  .personal-info-content{
+    padding-bottom: 0.5em;
+  }
+
+  textarea{
+    resize: none;
+    font-size: 1.1em;
+    padding-bottom: 0.5em;
+    border-radius: 5px 5px 5px 5px;
+    border-color: #BEBCBD;
+    border-style:solid;
+    border-width: 0.1em;
+  }
+
+  input{
+    font-size: 1.1em;
+    padding-bottom: 0.5em;
+    border-radius: 5px 5px 5px 5px;
+    border-color: #BEBCBD;
+    border-style:solid;
+    border-width: 0.1em;
+  }
+
+  .send-msg-titles{
+    color: #868485; 
+    font-size: 0.75em;
+  }
+
+  #msg-title{
+    padding-top: 0.5em;
+  }
+
+  #wordCount{
+    color: #ADACAB;
+    font-size:0.4em;
+    vertical-align: text-top;
+    padding-left: 19em;
+  }
+
+  #send-button{
+    border-style:solid;
+    border-width: 0.1em;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #25CFBE;
+    width:92%; 
+    height: 3em;
+    font-family:"Verdana";
+    color:#FFFFFF;
   }
 
 
