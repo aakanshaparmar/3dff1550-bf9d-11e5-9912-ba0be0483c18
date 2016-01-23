@@ -369,8 +369,6 @@ body {
     background:#fff;
     display:inline-block;
 }
-
-
 p.divider{
     text-align:center;
     position:relative;
@@ -392,9 +390,51 @@ p.divider:after{
     z-index:-1;
 }
 
-#divider2{
+#related-articles{
   width: 140%;
+  align:center;
 }
+
+.article{
+    position: relative; 
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    width: 30%;
+    border-style: solid;
+    border-color: #E1E1E1;
+    border-width: 1px;
+    display: block;
+    margin-right:2em;
+   
+}
+
+.article-img{
+  height: 82%;
+  width: 100%;
+  margin-bottom: 0em;
+  position: relative;
+
+}
+
+.article-info{
+  max-width: 82%;  
+}
+
+.article2{
+    position: relative; 
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    width: 30%;
+    border-style: solid;
+    border-color: #E1E1E1;
+    border-width: 1px;
+    display: block;
+    margin-right:2em;
+    margin-top: 5em;    
+   
+}
+
+
 
 
 
