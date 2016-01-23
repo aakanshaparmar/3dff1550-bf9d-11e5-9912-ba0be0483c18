@@ -620,14 +620,29 @@ p.divider:after{
  
 }
 
+@media screen and (max-width: 792px) {
 
 
+  textarea{
+    padding-right: 0em;
+    width: 6em;
+  }
+
+  input{
+    width: 6em;
+
+  }
+
+  .personal-info-heading{
+    font-size: 0.1em;
+
+  }
+
+  .personal-info-content{
+      font-size: 0.1em;
+  }
 
 
-
-
-
-
-
+}
 
 }
